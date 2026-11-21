@@ -1,0 +1,97 @@
+{
+  "format": "momo1-151-zh-source-patch-v1",
+  "version": "0.1-test",
+  "source_sha256": "97b6419b3def0f9133a6b1322d113f3ed22b395fbf5d3eaa6dd8dc2dd406e84a",
+  "target_sha256": "2e114c748aaa62c1a074dcdc64672c79fa4fb98ce50117a49c23a7e16bfcf083",
+  "source_length": 3013668,
+  "target_length": 3018789,
+  "atlas_sha256": "0ec3e935ad33a53dce23ca82a80163a82c22ef2d7cdd9a18c959501cb684d095",
+  "atlas_size": [
+    512,
+    1024
+  ],
+  "translation_count": 91,
+  "allocated_scripts": [
+    {
+      "slot": 0,
+      "name": "zh_render",
+      "code_sha256": "2045497b9c22ba80bb6c1928d95b7e6877c4122629836b852d1c97790e312ebd"
+    },
+    {
+      "slot": 1,
+      "name": "zh_draw_text",
+      "code_sha256": "b7f090525f5c404c0dee10881e794100ba9952d6c647d6bdd75f1c04a270822a"
+    },
+    {
+      "slot": 2,
+      "name": "zh_draw_text_color",
+      "code_sha256": "b6105ba5e71d0bd18cdb9a1ec00a144f2c11b7542df98fe01511834ca4a94ab4"
+    },
+    {
+      "slot": 3,
+      "name": "zh_draw_text_transformed",
+      "code_sha256": "768618a8eb6f32ca26dd2ee8ebbcdd0efa21b432994938d5279a4b91a40d5ad0"
+    },
+    {
+      "slot": 4,
+      "name": "zh_draw_text_transformed_color",
+      "code_sha256": "d351d569f8bb993eedb91852ad4b85e77257be51260449408afe9cc83f6ab50e"
+    }
+  ],
+  "inline": [
+    {
+      "offset": 204105,
+      "before_sha256": "e77e2bf05e66d3ab4770b047f96b86c49a794ae4bac388ec0c66c381501285fd",
+      "before_length": 2762,
+      "after_length": 2768
+    },
+    {
+      "offset": 222760,
+      "before_sha256": "1c5a5eda6be331be81e22df5c26f7c7768b98397ded334a15f48e76d3736bf83",
+      "before_length": 493,
+      "after_length": 511
+    },
+    {
+      "offset": 226513,
+      "before_sha256": "f8b50abbf0c22e6cebb5ae9e54efb7279b3b9a48fd32f5109248ca018fe15d35",
+      "before_length": 77,
+      "after_length": 80
+    },
+    {
+      "offset": 230063,
+      "before_sha256": "14a3d26aa1eb9b049b0c711f743d90e4cb2720e045a653b80cd0121e84dac5f8",
+      "before_length": 900,
+      "after_length": 909
+    },
+    {
+      "offset": 236732,
+      "before_sha256": "0547a09918f454f530f411e6d6e1e52590c81663448623604efb3d107f0154e3",
+      "before_length": 221,
+      "after_length": 224
+    },
+    {
+      "offset": 271151,
+      "before_sha256": "ccf33938532753fa272654fa9dc9df08646cc9a01bfe900945a6775ff7221dd6",
+      "before_length": 5046,
+      "after_length": 5265
+    },
+    {
+      "offset": 276874,
+      "before_sha256": "3c6e0cdacc90caa84075ee9b2e676a0356c674ddee622f429ff807f30f08371e",
+      "before_length": 146,
+      "after_length": 149
+    }
+  ],
+  "script_table_sha256": "a9ee05bda359f4bb10079004079823a78080917269f04ae29661305cc3699996",
+  "helpers": {
+    "zh_render": "// Chinese image-atlas renderer. Original texts remain untouched.\r\nvar zz_x,zz_y,zz_t,zz_sx,zz_sy,zz_c,zz_a,zz_l,zz_top,zz_w,zz_h,zz_dynamic,zz_suffix;\r\nzz_x=argument0; zz_y=argument1; zz_t=string(argument2);\r\nzz_sx=argument3; zz_sy=argument4; zz_c=argument5; zz_a=argument6;\r\nzz_l=-1; zz_top=0; zz_w=0; zz_h=0; zz_dynamic=false;\r\nif (zz_t=\"#press A to start\") {zz_l=2; zz_top=2; zz_w=54; zz_h=26; }\r\nif (zz_t=\"new game#load game#time attack\") {zz_l=58; zz_top=2; zz_w=48; zz_h=39; }\r\nif (zz_t=\"TIME\") {zz_l=108; zz_top=2; zz_w=24; zz_h=13; }\r\nif (zz_t=\"Game Saved!\") {zz_l=134; zz_top=2; zz_w=48; zz_h=13; }\r\nif (zz_t=\"In the land of KoHo, common are the sacrifices of maidens,#in hope of recreating the world as a better place to live.\") {zz_l=184; zz_top=2; zz_w=180; zz_h=26; }\r\nif (zz_t=\"Not all accept the rituals, though.##An orphan girl, who has lost her mother to these rituals,#entered a forbidden land, in search of a particular item.\") {zz_l=2; zz_top=43; zz_w=156; zz_h=52; }\r\nif (zz_t=\"##The legends say that this sacred item can even#bring the dead back to life, but for a certain price...\") {zz_l=160; zz_top=43; zz_w=180; zz_h=52; }\r\nif (zz_t=\"Q - changes weapons     S - uses weapon#W - changes item       D - uses item#you can use the boomerang to hit those red crystals#and the reverse-gravity boots to go upside down.\") {zz_l=342; zz_top=43; zz_w=144; zz_h=52; }\r\nif (zz_t=\"So a mere human like you has made this far into this forbidden place...\") {zz_l=2; zz_top=97; zz_w=192; zz_h=13; }\r\nif (zz_t=\"I am Lamia, the Underworld Queen.\") {zz_l=196; zz_top=97; zz_w=144; zz_h=13; }\r\nif (zz_t=\"You dare to come down here, believing in a stupid legend about fooling#death...\") {zz_l=342; zz_top=97; zz_w=168; zz_h=26; }\r\nif (zz_t=\"Those who seek ways to fool death will only meet eternal doom#themselves!\") {zz_l=2; zz_top=125; zz_w=156; zz_h=26; }\r\nif (zz_t=\"...I've been waiting for someone like you for a long time.#It's time to have some fun!\") {zz_l=160; zz_top=125; zz_w=192; zz_h=26; }\r\nif (zz_t=\"Give me your best shot, if you are prepared for the void!\") {zz_l=354; zz_top=125; zz_w=156; zz_h=26; }\r\nif (zz_t=\"Ughh...!\") {zz_l=2; zz_top=153; zz_w=60; zz_h=13; }\r\nif (zz_t=\"Let's see how you face this!!\") {zz_l=64; zz_top=153; zz_w=132; zz_h=13; }\r\nif (zz_t=\"Gah! Is the will to see your mother that strong...?!\") {zz_l=198; zz_top=153; zz_w=156; zz_h=26; }\r\nif (zz_t=\"Fine, but you'll regret your decision! Hi ha ha!\") {zz_l=2; zz_top=181; zz_w=168; zz_h=26; }\r\nif (zz_t=\"...It's probably hard for you to see me like this.\") {zz_l=172; zz_top=181; zz_w=108; zz_h=26; }\r\nif (zz_t=\"My daughter, what you have done for your mother is really admirable.\") {zz_l=282; zz_top=181; zz_w=180; zz_h=26; }\r\nif (zz_t=\"But unfortunately... I can't come back to life. I was chosen as one of the#holy sacrifices for an eventual recreation of this world.\") {zz_l=2; zz_top=209; zz_w=192; zz_h=26; }\r\nif (zz_t=\"We can't disobey the will of the gods. It had to be done and nothing can#change that back.\") {zz_l=196; zz_top=209; zz_w=144; zz_h=26; }\r\nif (zz_t=\"I'm sorry. I understand the pain you've been through...\") {zz_l=2; zz_top=237; zz_w=180; zz_h=26; }\r\nif (zz_t=\"Please accept this as a last gift from your mother.#I love you...\") {zz_l=184; zz_top=237; zz_w=192; zz_h=26; }\r\nif (zz_t=\"This is your first gun, the ESP gun. #You can switch weapons with the Q button.\") {zz_l=2; zz_top=265; zz_w=180; zz_h=26; }\r\nif (zz_t=\"You can jump by pressing A and attack by pressing S.#Press Down to advance text.\") {zz_l=184; zz_top=265; zz_w=132; zz_h=26; }\r\nif (zz_t=\"You can also check your inventory by pressing Enter.\") {zz_l=318; zz_top=265; zz_w=174; zz_h=13; }\r\nif (zz_t=\"Yokii: You haven't seen a witch with a large green hat or a tiny robo#bunny, have you?\") {zz_l=2; zz_top=293; zz_w=204; zz_h=26; }\r\nif (zz_t=\"If you see them, tell them you never saw me.\") {zz_l=208; zz_top=293; zz_w=168; zz_h=13; }\r\nif (zz_t=\"You can use the Boomerang to hit objects out of your reach.#Select it with E and press D to use it.\") {zz_l=2; zz_top=321; zz_w=156; zz_h=26; }\r\nif (zz_t=\"This is the Karst Gatling, an automatic gun.#Its bullets are weak but it shoots pretty fast.\") {zz_l=160; zz_top=321; zz_w=180; zz_h=26; }\r\nif (zz_t=\"The Colt Single Action Army. The greatest handgun ever made.#Enjoy its destructive power.\") {zz_l=2; zz_top=349; zz_w=192; zz_h=26; }\r\nif (zz_t=\"This shield can be activated by selecting it with E and pressing D.#It holds four orbs and has a slow recharge time.\") {zz_l=196; zz_top=349; zz_w=168; zz_h=26; }\r\nif (zz_t=\"Are you familiar with the Conami Code?\") {zz_l=366; zz_top=349; zz_w=120; zz_h=13; }\r\nif (zz_t=\"This is the Chaser Bazooka, a homing-missile weapon. The missiles are#weak but may prove to be useful.\") {zz_l=2; zz_top=377; zz_w=192; zz_h=26; }\r\nif (zz_t=\"This is the final destination. There is no turning back now.\") {zz_l=196; zz_top=377; zz_w=132; zz_h=26; }\r\nif (zz_t=\"Magic Leaf\") {zz_l=330; zz_top=377; zz_w=36; zz_h=13; }\r\nif (zz_t=\"Your first weapon, a magic leaf capable of great#cutting powers.\") {zz_l=2; zz_top=405; zz_w=180; zz_h=26; }\r\nif (zz_t=\"Golden Flower\") {zz_l=184; zz_top=405; zz_w=48; zz_h=13; }\r\nif (zz_t=\"The sunflower worn by the Sun Priestess, Mama#Quilla.\") {zz_l=234; zz_top=405; zz_w=132; zz_h=26; }\r\nif (zz_t=\"Moon Flower\") {zz_l=368; zz_top=405; zz_w=36; zz_h=13; }\r\nif (zz_t=\"A legendary rose that shines upon Fullmoon nights.\") {zz_l=2; zz_top=433; zz_w=132; zz_h=26; }\r\nif (zz_t=\"Acursed Bell\") {zz_l=136; zz_top=433; zz_w=48; zz_h=13; }\r\nif (zz_t=\"The bell which calls the demon cat, Bakeneko.\") {zz_l=186; zz_top=433; zz_w=120; zz_h=13; }\r\nif (zz_t=\"Hairpin\") {zz_l=308; zz_top=433; zz_w=24; zz_h=13; }\r\nif (zz_t=\"A type of hairpin worn by the holy maidens from#the Eos tribe.\") {zz_l=334; zz_top=433; zz_w=108; zz_h=26; }\r\nif (zz_t=\"2YO Doll\") {zz_l=444; zz_top=433; zz_w=48; zz_h=13; }\r\nif (zz_t=\"A very stupid doll.#Some idiot must have made it.\") {zz_l=2; zz_top=461; zz_w=144; zz_h=26; }\r\nif (zz_t=\"Squid Hat (ika)\") {zz_l=148; zz_top=461; zz_w=78; zz_h=13; }\r\nif (zz_t=\"An absolutely cute white hat from the depths of a#pixelated ocean.\") {zz_l=228; zz_top=461; zz_w=168; zz_h=26; }\r\nif (zz_t=\"White Mask\") {zz_l=398; zz_top=461; zz_w=48; zz_h=13; }\r\nif (zz_t=\"A plain white mask. Somehow you feel a strange#aura from it.\") {zz_l=2; zz_top=489; zz_w=168; zz_h=26; }\r\nif (zz_t=\"Purply's Crown\") {zz_l=172; zz_top=489; zz_w=48; zz_h=13; }\r\nif (zz_t=\"Crown once blessed with the power of Life,#previously atop a purple tower.\") {zz_l=222; zz_top=489; zz_w=156; zz_h=26; }\r\nif (zz_t=\"Love Letter\") {zz_l=380; zz_top=489; zz_w=24; zz_h=13; }\r\nif (zz_t=\"A L-love letter?! Who might have sent it...?!\") {zz_l=2; zz_top=517; zz_w=132; zz_h=26; }\r\nif (zz_t=\"Bird Statue\") {zz_l=136; zz_top=517; zz_w=48; zz_h=13; }\r\nif (zz_t=\"The statue of a bird who traded one of his eyes#for the ability to fly through time.\") {zz_l=186; zz_top=517; zz_w=156; zz_h=26; }\r\nif (zz_t=\"Pause Fairy\") {zz_l=344; zz_top=517; zz_w=48; zz_h=13; }\r\nif (zz_t=\"A fairy that only appears in the pause screen.#She is known for her useless advices.\") {zz_l=2; zz_top=545; zz_w=168; zz_h=26; }\r\nif (zz_t=\"Traveler's Journal\") {zz_l=172; zz_top=545; zz_w=48; zz_h=13; }\r\nif (zz_t=\"The adventure log and memory journal of a#traveller.\") {zz_l=222; zz_top=545; zz_w=156; zz_h=13; }\r\nif (zz_t=\"Time Egg\") {zz_l=380; zz_top=545; zz_w=48; zz_h=13; }\r\nif (zz_t=\"Delicious egg if fried... But some prefer to use it as#a Time Machine.\") {zz_l=2; zz_top=573; zz_w=156; zz_h=26; }\r\nif (zz_t=\"Shell Fruit\") {zz_l=160; zz_top=573; zz_w=36; zz_h=13; }\r\nif (zz_t=\"Long ago, one thousand of them fell from the sky.#Unbelievably delicious, despite the odd shape.\") {zz_l=198; zz_top=573; zz_w=192; zz_h=26; }\r\nif (zz_t=\"CAST\") {zz_l=392; zz_top=573; zz_w=40; zz_h=13; }\r\nif (zz_t=\"MOMODORA STAFF\") {zz_l=2; zz_top=601; zz_w=85; zz_h=13; }\r\nif (zz_t=\"PRODUCER\") {zz_l=89; zz_top=601; zz_w=30; zz_h=13; }\r\nif (zz_t=\"DIRECTOR\") {zz_l=121; zz_top=601; zz_w=20; zz_h=13; }\r\nif (zz_t=\"LEAD PROGRAMMING\") {zz_l=143; zz_top=601; zz_w=30; zz_h=13; }\r\nif (zz_t=\"PROGRAMMING\") {zz_l=175; zz_top=601; zz_w=40; zz_h=13; }\r\nif (zz_t=\"MONSTER DESIGN\") {zz_l=217; zz_top=601; zz_w=40; zz_h=13; }\r\nif (zz_t=\"SCENARIO\") {zz_l=259; zz_top=601; zz_w=20; zz_h=13; }\r\nif (zz_t=\"ART\") {zz_l=281; zz_top=601; zz_w=20; zz_h=13; }\r\nif (zz_t=\"MUSIC\") {zz_l=303; zz_top=601; zz_w=20; zz_h=13; }\r\nif (zz_t=\"SOUND EFFECTS\") {zz_l=325; zz_top=601; zz_w=20; zz_h=13; }\r\nif (zz_t=\"LEVEL DESIGN\") {zz_l=347; zz_top=601; zz_w=40; zz_h=13; }\r\nif (zz_t=\"PLAY TESTING\") {zz_l=389; zz_top=601; zz_w=20; zz_h=13; }\r\nif (zz_t=\"THANKS\") {zz_l=411; zz_top=601; zz_w=20; zz_h=13; }\r\nif (zz_t=\"SPECIAL THANKS\") {zz_l=433; zz_top=601; zz_w=40; zz_h=13; }\r\nif (zz_t=\"No Face (moving platforms code)\") {zz_l=2; zz_top=616; zz_w=115; zz_h=13; }\r\nif (zz_t=\"Tahnok (some enemy code)\") {zz_l=119; zz_top=616; zz_w=110; zz_h=13; }\r\nif (zz_t=\"Earthbound (for the font)\") {zz_l=231; zz_top=616; zz_w=90; zz_h=13; }\r\nif (zz_t=\"DrPetter (for SFXR)\") {zz_l=323; zz_top=616; zz_w=80; zz_h=13; }\r\nif (zz_t=\"kindred and score_under (for the GM pxtone dll)\") {zz_l=2; zz_top=631; zz_w=185; zz_h=13; }\r\nif (zz_t=\"various GMC and TIGSource members\") {zz_l=189; zz_top=631; zz_w=130; zz_h=13; }\r\nif (zz_t=\"Lots of Nintendo classics\") {zz_l=321; zz_top=631; zz_w=90; zz_h=13; }\r\nif (zz_t=\"...and You, for playing!\") {zz_l=2; zz_top=646; zz_w=110; zz_h=13; }\r\nif (zz_t=\"rdein presents\") {zz_l=114; zz_top=646; zz_w=60; zz_h=13; }\r\nif (string_pos(\"##(BEST TIME: \",zz_t)=1) {zz_l=176; zz_top=646; zz_w=60; zz_h=39; zz_dynamic=true;}\r\nif (zz_l<0) return false;\r\nif (!variable_global_exists(\"zh_atlas\")) {\r\n global.zh_atlas=-1;\r\n if (file_exists(working_directory+\"/data/graphic/momo1_zh_text.png\")) {\r\n  global.zh_atlas=background_add(working_directory+\"/data/graphic/momo1_zh_text.png\",true,false,true);\r\n }\r\n}\r\nif (global.zh_atlas<0) return false;\r\ndraw_background_part_ext(global.zh_atlas,zz_l,zz_top,zz_w,zz_h,zz_x,zz_y,zz_sx,zz_sy,zz_c,zz_a);\r\nif (zz_dynamic) {\r\n zz_suffix=string_copy(zz_t,15,string_length(zz_t)-15);\r\n draw_text_transformed(zz_x+60*zz_sx,zz_y+26*zz_sy,zz_suffix,zz_sx,zz_sy,0);\r\n}\r\nreturn true;\r\n",
+    "zh_draw_text": "if (!zh_render(argument0,argument1,argument2,1,1,draw_get_color(),draw_get_alpha())) {\r\n draw_text(argument0,argument1,argument2);\r\n}\r\n",
+    "zh_draw_text_color": "if (argument3!=argument4 || argument3!=argument5 || argument3!=argument6) {\r\n draw_text_color(argument0,argument1,argument2,argument3,argument4,argument5,argument6,argument7);\r\n} else {\r\n if (!zh_render(argument0,argument1,argument2,1,1,argument3,argument7)) {\r\n  draw_text_color(argument0,argument1,argument2,argument3,argument4,argument5,argument6,argument7);\r\n }\r\n}\r\n",
+    "zh_draw_text_transformed": "if (argument5!=0) {\r\n draw_text_transformed(argument0,argument1,argument2,argument3,argument4,argument5);\r\n} else {\r\n if (!zh_render(argument0,argument1,argument2,argument3,argument4,draw_get_color(),draw_get_alpha())) {\r\n  draw_text_transformed(argument0,argument1,argument2,argument3,argument4,argument5);\r\n }\r\n}\r\n",
+    "zh_draw_text_transformed_color": "if (argument5!=0 || argument6!=argument7 || argument6!=argument8 || argument6!=argument9) {\r\n draw_text_transformed_color(argument0,argument1,argument2,argument3,argument4,argument5,argument6,argument7,argument8,argument9,argument10);\r\n} else {\r\n if (!zh_render(argument0,argument1,argument2,argument3,argument4,argument6,argument10)) {\r\n  draw_text_transformed_color(argument0,argument1,argument2,argument3,argument4,argument5,argument6,argument7,argument8,argument9,argument10);\r\n }\r\n}\r\n"
+  },
+  "original_script_sha256": {
+    "say": "a73e38e385602efafcd412edeb91ab2f7c5b2c7b014b403d583777eea506540a",
+    "pause_scr": "e32b69e50680f0276f15c952c8bc280b33d6346d50e9fb5db1531838925467f3"
+  }
+}

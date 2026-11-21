@@ -1,0 +1,11 @@
+{
+  "passed": [
+    "dry-run-no-writes",
+    "install-target-hash",
+    "idempotent-install",
+    "remove-preserves-original-and-saves",
+    "reject-modified-source",
+    "reject-unknown-existing-files"
+  ],
+  "count": 6
+}

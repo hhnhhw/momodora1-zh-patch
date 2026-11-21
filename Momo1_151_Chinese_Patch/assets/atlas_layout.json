@@ -1,0 +1,845 @@
+[
+  {
+    "source": "#press A to start",
+    "target": "#按 A 开始",
+    "width": 140,
+    "x": 2,
+    "y": 2,
+    "w": 54,
+    "h": 26
+  },
+  {
+    "source": "new game#load game#time attack",
+    "target": "新游戏#读取存档#计时挑战",
+    "width": 120,
+    "x": 58,
+    "y": 2,
+    "w": 48,
+    "h": 39
+  },
+  {
+    "source": "TIME",
+    "target": "时间",
+    "width": 60,
+    "x": 108,
+    "y": 2,
+    "w": 24,
+    "h": 13
+  },
+  {
+    "source": "Game Saved!",
+    "target": "已保存！",
+    "width": 100,
+    "x": 134,
+    "y": 2,
+    "w": 48,
+    "h": 13
+  },
+  {
+    "source": "In the land of KoHo, common are the sacrifices of maidens,#in hope of recreating the world as a better place to live.",
+    "target": "在科霍大陆，人们常以少女献祭，#期盼将世界重塑得更加美好。",
+    "width": 260,
+    "x": 184,
+    "y": 2,
+    "w": 180,
+    "h": 26
+  },
+  {
+    "source": "Not all accept the rituals, though.##An orphan girl, who has lost her mother to these rituals,#entered a forbidden land, in search of a particular item.",
+    "target": "但并非人人都认同这种仪式。##一名孤女的母亲死于献祭，#她踏入禁地，寻找一件秘宝。",
+    "width": 260,
+    "x": 2,
+    "y": 43,
+    "w": 156,
+    "h": 52
+  },
+  {
+    "source": "##The legends say that this sacred item can even#bring the dead back to life, but for a certain price...",
+    "target": "##传说这件圣物甚至能让死者复生，#但必须付出某种代价……",
+    "width": 260,
+    "x": 160,
+    "y": 43,
+    "w": 180,
+    "h": 52
+  },
+  {
+    "source": "Q - changes weapons     S - uses weapon#W - changes item       D - uses item#you can use the boomerang to hit those red crystals#and the reverse-gravity boots to go upside down.",
+    "target": "Q 切换武器　S 使用武器#E 切换道具　D 使用道具#用回旋镖击打红色水晶，#用反重力靴即可倒立行走。",
+    "width": 280,
+    "x": 342,
+    "y": 43,
+    "w": 144,
+    "h": 52
+  },
+  {
+    "source": "So a mere human like you has made this far into this forbidden place...",
+    "target": "区区人类，居然能深入这片禁地……",
+    "width": 298,
+    "x": 2,
+    "y": 97,
+    "w": 192,
+    "h": 13
+  },
+  {
+    "source": "I am Lamia, the Underworld Queen.",
+    "target": "我是拉弥亚，冥界的女王。",
+    "width": 298,
+    "x": 196,
+    "y": 97,
+    "w": 144,
+    "h": 13
+  },
+  {
+    "source": "You dare to come down here, believing in a stupid legend about fooling#death...",
+    "target": "你竟敢闯入此地，只因相信那个#能欺瞒死亡的愚蠢传说……",
+    "width": 298,
+    "x": 342,
+    "y": 97,
+    "w": 168,
+    "h": 26
+  },
+  {
+    "source": "Those who seek ways to fool death will only meet eternal doom#themselves!",
+    "target": "妄图欺瞒死亡之人，#只会让自己陷入永恒的毁灭！",
+    "width": 298,
+    "x": 2,
+    "y": 125,
+    "w": 156,
+    "h": 26
+  },
+  {
+    "source": "...I've been waiting for someone like you for a long time.#It's time to have some fun!",
+    "target": "……我等你这样的人，已经很久了。#是时候找点乐子了！",
+    "width": 298,
+    "x": 160,
+    "y": 125,
+    "w": 192,
+    "h": 26
+  },
+  {
+    "source": "Give me your best shot, if you are prepared for the void!",
+    "target": "若你已做好坠入虚无的准备，#就使出你的全力吧！",
+    "width": 298,
+    "x": 354,
+    "y": 125,
+    "w": 156,
+    "h": 26
+  },
+  {
+    "source": "Ughh...!",
+    "target": "呃啊……！",
+    "width": 298,
+    "x": 2,
+    "y": 153,
+    "w": 60,
+    "h": 13
+  },
+  {
+    "source": "Let's see how you face this!!",
+    "target": "看你如何应付这一招！！",
+    "width": 298,
+    "x": 64,
+    "y": 153,
+    "w": 132,
+    "h": 13
+  },
+  {
+    "source": "Gah! Is the will to see your mother that strong...?!",
+    "target": "可恶！你想再见母亲的愿望，#竟然如此强烈……？！",
+    "width": 298,
+    "x": 198,
+    "y": 153,
+    "w": 156,
+    "h": 26
+  },
+  {
+    "source": "Fine, but you'll regret your decision! Hi ha ha!",
+    "target": "好吧，但你会后悔这个决定的！#嘻哈哈！",
+    "width": 298,
+    "x": 2,
+    "y": 181,
+    "w": 168,
+    "h": 26
+  },
+  {
+    "source": "...It's probably hard for you to see me like this.",
+    "target": "……看见这样的我，#你一定很难过吧。",
+    "width": 298,
+    "x": 172,
+    "y": 181,
+    "w": 108,
+    "h": 26
+  },
+  {
+    "source": "My daughter, what you have done for your mother is really admirable.",
+    "target": "我的女儿，你为母亲所做的一切，#真的非常了不起。",
+    "width": 298,
+    "x": 282,
+    "y": 181,
+    "w": 180,
+    "h": 26
+  },
+  {
+    "source": "But unfortunately... I can't come back to life. I was chosen as one of the#holy sacrifices for an eventual recreation of this world.",
+    "target": "可是……我无法复生。我已被选中，#为重塑这个世界而成为神圣的祭品。",
+    "width": 298,
+    "x": 2,
+    "y": 209,
+    "w": 192,
+    "h": 26
+  },
+  {
+    "source": "We can't disobey the will of the gods. It had to be done and nothing can#change that back.",
+    "target": "我们不能违背众神的意志。#此事已成定局，无法挽回。",
+    "width": 298,
+    "x": 196,
+    "y": 209,
+    "w": 144,
+    "h": 26
+  },
+  {
+    "source": "I'm sorry. I understand the pain you've been through...",
+    "target": "对不起。#我明白你一路承受了多少痛苦……",
+    "width": 298,
+    "x": 2,
+    "y": 237,
+    "w": 180,
+    "h": 26
+  },
+  {
+    "source": "Please accept this as a last gift from your mother.#I love you...",
+    "target": "请收下母亲送给你的最后一份礼物。#我爱你……",
+    "width": 298,
+    "x": 184,
+    "y": 237,
+    "w": 192,
+    "h": 26
+  },
+  {
+    "source": "This is your first gun, the ESP gun. #You can switch weapons with the Q button.",
+    "target": "这是你的第一把枪——超能力枪。#按 Q 键可切换武器。",
+    "width": 298,
+    "x": 2,
+    "y": 265,
+    "w": 180,
+    "h": 26
+  },
+  {
+    "source": "You can jump by pressing A and attack by pressing S.#Press Down to advance text.",
+    "target": "按 A 跳跃，按 S 攻击。#按方向下键继续对话。",
+    "width": 298,
+    "x": 184,
+    "y": 265,
+    "w": 132,
+    "h": 26
+  },
+  {
+    "source": "You can also check your inventory by pressing Enter.",
+    "target": "按 Enter 键还可以查看物品栏。",
+    "width": 298,
+    "x": 318,
+    "y": 265,
+    "w": 174,
+    "h": 13
+  },
+  {
+    "source": "Yokii: You haven't seen a witch with a large green hat or a tiny robo#bunny, have you?",
+    "target": "优姬：你有没有见过戴大绿帽的魔女，#或者一只小小的机器兔？",
+    "width": 298,
+    "x": 2,
+    "y": 293,
+    "w": 204,
+    "h": 26
+  },
+  {
+    "source": "If you see them, tell them you never saw me.",
+    "target": "要是见到了，就说你没见过我。",
+    "width": 298,
+    "x": 208,
+    "y": 293,
+    "w": 168,
+    "h": 13
+  },
+  {
+    "source": "You can use the Boomerang to hit objects out of your reach.#Select it with E and press D to use it.",
+    "target": "回旋镖可以击打远处的物体。#按 E 选中它，再按 D 使用。",
+    "width": 298,
+    "x": 2,
+    "y": 321,
+    "w": 156,
+    "h": 26
+  },
+  {
+    "source": "This is the Karst Gatling, an automatic gun.#Its bullets are weak but it shoots pretty fast.",
+    "target": "这是卡斯特加特林，一把自动枪。#子弹威力虽小，射速却很快。",
+    "width": 298,
+    "x": 160,
+    "y": 321,
+    "w": 180,
+    "h": 26
+  },
+  {
+    "source": "The Colt Single Action Army. The greatest handgun ever made.#Enjoy its destructive power.",
+    "target": "柯尔特单动式陆军——最棒的手枪。#尽情享受它的破坏力吧。",
+    "width": 298,
+    "x": 2,
+    "y": 349,
+    "w": 192,
+    "h": 26
+  },
+  {
+    "source": "This shield can be activated by selecting it with E and pressing D.#It holds four orbs and has a slow recharge time.",
+    "target": "按 E 选中护盾，再按 D 启动。#它能容纳四颗光球，充能较慢。",
+    "width": 298,
+    "x": 196,
+    "y": 349,
+    "w": 168,
+    "h": 26
+  },
+  {
+    "source": "Are you familiar with the Conami Code?",
+    "target": "你知道科乐美秘技吗？",
+    "width": 298,
+    "x": 366,
+    "y": 349,
+    "w": 120,
+    "h": 13
+  },
+  {
+    "source": "This is the Chaser Bazooka, a homing-missile weapon. The missiles are#weak but may prove to be useful.",
+    "target": "这是追踪火箭筒，能发射追踪导弹。#导弹威力较弱，但或许能派上用场。",
+    "width": 298,
+    "x": 2,
+    "y": 377,
+    "w": 192,
+    "h": 26
+  },
+  {
+    "source": "This is the final destination. There is no turning back now.",
+    "target": "这里就是终点。#现在已经没有回头路了。",
+    "width": 298,
+    "x": 196,
+    "y": 377,
+    "w": 132,
+    "h": 26
+  },
+  {
+    "source": "Magic Leaf",
+    "target": "魔法叶",
+    "width": 160,
+    "x": 330,
+    "y": 377,
+    "w": 36,
+    "h": 13
+  },
+  {
+    "source": "Your first weapon, a magic leaf capable of great#cutting powers.",
+    "target": "你的第一件武器。#一片具有强大切割能力的魔法叶。",
+    "width": 250,
+    "x": 2,
+    "y": 405,
+    "w": 180,
+    "h": 26
+  },
+  {
+    "source": "Golden Flower",
+    "target": "金色花朵",
+    "width": 160,
+    "x": 184,
+    "y": 405,
+    "w": 48,
+    "h": 13
+  },
+  {
+    "source": "The sunflower worn by the Sun Priestess, Mama#Quilla.",
+    "target": "太阳女祭司玛玛·基利亚#佩戴的向日葵。",
+    "width": 250,
+    "x": 234,
+    "y": 405,
+    "w": 132,
+    "h": 26
+  },
+  {
+    "source": "Moon Flower",
+    "target": "月之花",
+    "width": 160,
+    "x": 368,
+    "y": 405,
+    "w": 36,
+    "h": 13
+  },
+  {
+    "source": "A legendary rose that shines upon Fullmoon nights.",
+    "target": "传说中的玫瑰，#会在满月之夜绽放光芒。",
+    "width": 250,
+    "x": 2,
+    "y": 433,
+    "w": 132,
+    "h": 26
+  },
+  {
+    "source": "Acursed Bell",
+    "target": "诅咒铃铛",
+    "width": 160,
+    "x": 136,
+    "y": 433,
+    "w": 48,
+    "h": 13
+  },
+  {
+    "source": "The bell which calls the demon cat, Bakeneko.",
+    "target": "能够召唤妖猫的铃铛。",
+    "width": 250,
+    "x": 186,
+    "y": 433,
+    "w": 120,
+    "h": 13
+  },
+  {
+    "source": "Hairpin",
+    "target": "发簪",
+    "width": 160,
+    "x": 308,
+    "y": 433,
+    "w": 24,
+    "h": 13
+  },
+  {
+    "source": "A type of hairpin worn by the holy maidens from#the Eos tribe.",
+    "target": "伊奥斯部落的圣女们#佩戴的一种发簪。",
+    "width": 250,
+    "x": 334,
+    "y": 433,
+    "w": 108,
+    "h": 26
+  },
+  {
+    "source": "2YO Doll",
+    "target": "2YO 玩偶",
+    "width": 160,
+    "x": 444,
+    "y": 433,
+    "w": 48,
+    "h": 13
+  },
+  {
+    "source": "A very stupid doll.#Some idiot must have made it.",
+    "target": "一个非常蠢的玩偶。#一定是哪个笨蛋做出来的。",
+    "width": 250,
+    "x": 2,
+    "y": 461,
+    "w": 144,
+    "h": 26
+  },
+  {
+    "source": "Squid Hat (ika)",
+    "target": "鱿鱼帽（ika）",
+    "width": 160,
+    "x": 148,
+    "y": 461,
+    "w": 78,
+    "h": 13
+  },
+  {
+    "source": "An absolutely cute white hat from the depths of a#pixelated ocean.",
+    "target": "来自像素海洋深处的白色帽子。#实在可爱极了。",
+    "width": 250,
+    "x": 228,
+    "y": 461,
+    "w": 168,
+    "h": 26
+  },
+  {
+    "source": "White Mask",
+    "target": "白色面具",
+    "width": 160,
+    "x": 398,
+    "y": 461,
+    "w": 48,
+    "h": 13
+  },
+  {
+    "source": "A plain white mask. Somehow you feel a strange#aura from it.",
+    "target": "一张普通的白色面具。#你却隐约感到一股奇怪的气息。",
+    "width": 250,
+    "x": 2,
+    "y": 489,
+    "w": 168,
+    "h": 26
+  },
+  {
+    "source": "Purply's Crown",
+    "target": "紫塔王冠",
+    "width": 160,
+    "x": 172,
+    "y": 489,
+    "w": 48,
+    "h": 13
+  },
+  {
+    "source": "Crown once blessed with the power of Life,#previously atop a purple tower.",
+    "target": "这顶王冠曾受生命之力祝福，#原本置于一座紫色高塔之上。",
+    "width": 250,
+    "x": 222,
+    "y": 489,
+    "w": 156,
+    "h": 26
+  },
+  {
+    "source": "Love Letter",
+    "target": "情书",
+    "width": 160,
+    "x": 380,
+    "y": 489,
+    "w": 24,
+    "h": 13
+  },
+  {
+    "source": "A L-love letter?! Who might have sent it...?!",
+    "target": "情、情书？！#到底是谁寄来的……？！",
+    "width": 250,
+    "x": 2,
+    "y": 517,
+    "w": 132,
+    "h": 26
+  },
+  {
+    "source": "Bird Statue",
+    "target": "鸟之雕像",
+    "width": 160,
+    "x": 136,
+    "y": 517,
+    "w": 48,
+    "h": 13
+  },
+  {
+    "source": "The statue of a bird who traded one of his eyes#for the ability to fly through time.",
+    "target": "这只鸟曾以一只眼睛为代价，#换取穿越时光的能力。",
+    "width": 250,
+    "x": 186,
+    "y": 517,
+    "w": 156,
+    "h": 26
+  },
+  {
+    "source": "Pause Fairy",
+    "target": "暂停妖精",
+    "width": 160,
+    "x": 344,
+    "y": 517,
+    "w": 48,
+    "h": 13
+  },
+  {
+    "source": "A fairy that only appears in the pause screen.#She is known for her useless advices.",
+    "target": "只会出现在暂停画面的妖精。#以提供毫无用处的建议而闻名。",
+    "width": 250,
+    "x": 2,
+    "y": 545,
+    "w": 168,
+    "h": 26
+  },
+  {
+    "source": "Traveler's Journal",
+    "target": "旅人日记",
+    "width": 160,
+    "x": 172,
+    "y": 545,
+    "w": 48,
+    "h": 13
+  },
+  {
+    "source": "The adventure log and memory journal of a#traveller.",
+    "target": "一位旅人的冒险记录与回忆。",
+    "width": 250,
+    "x": 222,
+    "y": 545,
+    "w": 156,
+    "h": 13
+  },
+  {
+    "source": "Time Egg",
+    "target": "时光之卵",
+    "width": 160,
+    "x": 380,
+    "y": 545,
+    "w": 48,
+    "h": 13
+  },
+  {
+    "source": "Delicious egg if fried... But some prefer to use it as#a Time Machine.",
+    "target": "煎着吃一定很美味……#但有人更愿把它当作时光机。",
+    "width": 250,
+    "x": 2,
+    "y": 573,
+    "w": 156,
+    "h": 26
+  },
+  {
+    "source": "Shell Fruit",
+    "target": "贝壳果",
+    "width": 160,
+    "x": 160,
+    "y": 573,
+    "w": 36,
+    "h": 13
+  },
+  {
+    "source": "Long ago, one thousand of them fell from the sky.#Unbelievably delicious, despite the odd shape.",
+    "target": "很久以前，一千颗贝壳果从天而降。#外形虽古怪，却美味得不可思议。",
+    "width": 250,
+    "x": 198,
+    "y": 573,
+    "w": 192,
+    "h": 26
+  },
+  {
+    "source": "CAST",
+    "target": "登场角色",
+    "width": 180,
+    "font": 10,
+    "x": 392,
+    "y": 573,
+    "w": 40,
+    "h": 13
+  },
+  {
+    "source": "MOMODORA STAFF",
+    "target": "MOMODORA 制作人员",
+    "width": 250,
+    "font": 10,
+    "x": 2,
+    "y": 601,
+    "w": 85,
+    "h": 13
+  },
+  {
+    "source": "PRODUCER",
+    "target": "制作人",
+    "width": 180,
+    "font": 10,
+    "x": 89,
+    "y": 601,
+    "w": 30,
+    "h": 13
+  },
+  {
+    "source": "DIRECTOR",
+    "target": "总监",
+    "width": 180,
+    "font": 10,
+    "x": 121,
+    "y": 601,
+    "w": 20,
+    "h": 13
+  },
+  {
+    "source": "LEAD PROGRAMMING",
+    "target": "主程序",
+    "width": 180,
+    "font": 10,
+    "x": 143,
+    "y": 601,
+    "w": 30,
+    "h": 13
+  },
+  {
+    "source": "PROGRAMMING",
+    "target": "程序设计",
+    "width": 180,
+    "font": 10,
+    "x": 175,
+    "y": 601,
+    "w": 40,
+    "h": 13
+  },
+  {
+    "source": "MONSTER DESIGN",
+    "target": "怪物设计",
+    "width": 180,
+    "font": 10,
+    "x": 217,
+    "y": 601,
+    "w": 40,
+    "h": 13
+  },
+  {
+    "source": "SCENARIO",
+    "target": "剧本",
+    "width": 180,
+    "font": 10,
+    "x": 259,
+    "y": 601,
+    "w": 20,
+    "h": 13
+  },
+  {
+    "source": "ART",
+    "target": "美术",
+    "width": 180,
+    "font": 10,
+    "x": 281,
+    "y": 601,
+    "w": 20,
+    "h": 13
+  },
+  {
+    "source": "MUSIC",
+    "target": "音乐",
+    "width": 180,
+    "font": 10,
+    "x": 303,
+    "y": 601,
+    "w": 20,
+    "h": 13
+  },
+  {
+    "source": "SOUND EFFECTS",
+    "target": "音效",
+    "width": 180,
+    "font": 10,
+    "x": 325,
+    "y": 601,
+    "w": 20,
+    "h": 13
+  },
+  {
+    "source": "LEVEL DESIGN",
+    "target": "关卡设计",
+    "width": 180,
+    "font": 10,
+    "x": 347,
+    "y": 601,
+    "w": 40,
+    "h": 13
+  },
+  {
+    "source": "PLAY TESTING",
+    "target": "测试",
+    "width": 180,
+    "font": 10,
+    "x": 389,
+    "y": 601,
+    "w": 20,
+    "h": 13
+  },
+  {
+    "source": "THANKS",
+    "target": "鸣谢",
+    "width": 180,
+    "font": 10,
+    "x": 411,
+    "y": 601,
+    "w": 20,
+    "h": 13
+  },
+  {
+    "source": "SPECIAL THANKS",
+    "target": "特别鸣谢",
+    "width": 180,
+    "font": 10,
+    "x": 433,
+    "y": 601,
+    "w": 40,
+    "h": 13
+  },
+  {
+    "source": "No Face (moving platforms code)",
+    "target": "No Face（移动平台代码）",
+    "width": 260,
+    "font": 10,
+    "x": 2,
+    "y": 616,
+    "w": 115,
+    "h": 13
+  },
+  {
+    "source": "Tahnok (some enemy code)",
+    "target": "Tahnok（部分敌人代码）",
+    "width": 260,
+    "font": 10,
+    "x": 119,
+    "y": 616,
+    "w": 110,
+    "h": 13
+  },
+  {
+    "source": "Earthbound (for the font)",
+    "target": "Earthbound（字体）",
+    "width": 260,
+    "font": 10,
+    "x": 231,
+    "y": 616,
+    "w": 90,
+    "h": 13
+  },
+  {
+    "source": "DrPetter (for SFXR)",
+    "target": "DrPetter（SFXR）",
+    "width": 260,
+    "font": 10,
+    "x": 323,
+    "y": 616,
+    "w": 80,
+    "h": 13
+  },
+  {
+    "source": "kindred and score_under (for the GM pxtone dll)",
+    "target": "kindred、score_under（GM pxtone DLL）",
+    "width": 300,
+    "font": 10,
+    "x": 2,
+    "y": 631,
+    "w": 185,
+    "h": 13
+  },
+  {
+    "source": "various GMC and TIGSource members",
+    "target": "众多 GMC 与 TIGSource 成员",
+    "width": 280,
+    "font": 10,
+    "x": 189,
+    "y": 631,
+    "w": 130,
+    "h": 13
+  },
+  {
+    "source": "Lots of Nintendo classics",
+    "target": "众多任天堂经典游戏",
+    "width": 260,
+    "font": 10,
+    "x": 321,
+    "y": 631,
+    "w": 90,
+    "h": 13
+  },
+  {
+    "source": "...and You, for playing!",
+    "target": "……以及游玩本作的你！",
+    "width": 260,
+    "font": 10,
+    "x": 2,
+    "y": 646,
+    "w": 110,
+    "h": 13
+  },
+  {
+    "source": "rdein presents",
+    "target": "rdein 出品",
+    "width": 140,
+    "x": 114,
+    "y": 646,
+    "w": 60,
+    "h": 13
+  },
+  {
+    "source": "##(BEST TIME: ",
+    "target": "##最佳时间：",
+    "width": 90,
+    "dynamic": true,
+    "x": 176,
+    "y": 646,
+    "w": 60,
+    "h": 39
+  }
+]

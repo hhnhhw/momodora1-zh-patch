@@ -1,0 +1,41 @@
+# Original or generated game files must never be committed.
+*.exe
+*.dll
+*.gml
+*.bin
+*.ogg
+*.wav
+*.mp3
+*.ttf
+*.ttc
+*.otf
+*.zip
+*.7z
+*.rar
+*.bak
+
+# User game data, saves, configuration and extracted resources.
+data/
+**/saves/
+cut.ini
+momo.config.ini
+**/scratch/
+**/test_run/
+**/installer-test-*/
+**/test_pid.txt
+
+# Python/build/editor state and authentication material.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.log
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

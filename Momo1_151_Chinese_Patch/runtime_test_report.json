@@ -1,0 +1,106 @@
+{
+  "runtime_startup_success": true,
+  "original_baseline_success": true,
+  "checks": [
+    {
+      "screenshot": "zh_flow2_menu.png",
+      "target": "#按 A 开始",
+      "expected_pixels": 704,
+      "matched_pixels": 704,
+      "ratio": 1.0,
+      "passed": true,
+      "color_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "screenshot": "zh_flow3_menu.png",
+      "target": "新游戏#读取存档#计时挑战",
+      "expected_pixels": 2168,
+      "matched_pixels": 2168,
+      "ratio": 1.0,
+      "passed": true,
+      "color_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "screenshot": "zh_flow3_prologue.png",
+      "target": "在科霍大陆，人们常以少女献祭，#期盼将世界重塑得更加美好。",
+      "expected_pixels": 5032,
+      "matched_pixels": 5032,
+      "ratio": 1.0,
+      "passed": true,
+      "color_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "screenshot": "zh_flow3_prologue_late.png",
+      "target": "但并非人人都认同这种仪式。##一名孤女的母亲死于献祭，#她踏入禁地，寻找一件秘宝。",
+      "expected_pixels": 6120,
+      "matched_pixels": 6120,
+      "ratio": 1.0,
+      "passed": true,
+      "color_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "screenshot": "zh_flow3_prologue_late.png",
+      "target": "##传说这件圣物甚至能让死者复生，#但必须付出某种代价……",
+      "expected_pixels": 4420,
+      "matched_pixels": 4420,
+      "ratio": 1.0,
+      "passed": true,
+      "color_range": [
+        217,
+        217
+      ]
+    },
+    {
+      "screenshot": "zh_flow3_inventory.png",
+      "target": "魔法叶",
+      "expected_pixels": 608,
+      "matched_pixels": 608,
+      "ratio": 1.0,
+      "passed": true,
+      "color_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "screenshot": "zh_flow3_inventory.png",
+      "target": "你的第一件武器。#一片具有强大切割能力的魔法叶。",
+      "expected_pixels": 3840,
+      "matched_pixels": 3840,
+      "ratio": 1.0,
+      "passed": true,
+      "color_range": [
+        255,
+        255
+      ]
+    }
+  ],
+  "all_pixel_checks_passed": true,
+  "tested": [
+    "title start prompt",
+    "three-option main menu",
+    "new-game prologue three blocks",
+    "first-room gameplay",
+    "pause inventory Magic Leaf name and description"
+  ],
+  "not_runtime_tested": [
+    "complete playthrough",
+    "all boss and ending routes",
+    "all collected items",
+    "all screen scales",
+    "save/load regression"
+  ],
+  "original_sha256": "97b6419b3def0f9133a6b1322d113f3ed22b395fbf5d3eaa6dd8dc2dd406e84a"
+}

@@ -1,0 +1,19 @@
+{
+  "translation_entries": 91,
+  "dialogue_occurrences": 30,
+  "dialogue_distinct": 28,
+  "normal_dialogue_missing": [],
+  "item_name_and_description_entries": 30,
+  "inline_draw_fields": 7,
+  "hooked_named_scripts": [
+    "say",
+    "pause_scr"
+  ],
+  "preserved_original_people_names_and_copyright": true,
+  "not_claimed": [
+    "image-baked text and logos",
+    "runtime error dialogs",
+    "debug/test-room text",
+    "full-game route regression"
+  ]
+}

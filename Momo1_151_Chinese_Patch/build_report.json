@@ -1,0 +1,18 @@
+{
+  "original_unchanged": true,
+  "source_round_trip": true,
+  "patched_readback": true,
+  "engine_prefix_unchanged": true,
+  "translations": 91,
+  "atlas_size": [
+    512,
+    1024
+  ],
+  "inline_hooks": 7,
+  "localized_exe_sha256": "2e114c748aaa62c1a074dcdc64672c79fa4fb98ce50117a49c23a7e16bfcf083",
+  "localized_exe_size": 3018789,
+  "runtime_tested": true,
+  "runtime_test_scope": "title-menu, three prologue blocks, first-room gameplay, Magic Leaf inventory name and description",
+  "runtime_report": "runtime_test_report.json",
+  "full_playthrough_tested": false
+}
