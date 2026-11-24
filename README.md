@@ -18,7 +18,17 @@
 
 保留原作者和参与者姓名、署名与版权文字。图片内烘焙文字、Logo、引擎错误弹窗及开发测试房间文字不在本版承诺范围内。
 
-## 安装
+## 一键安装器（无需 Python）
+
+从 [GitHub Release](https://github.com/hhnhhw/momodora1-zh-patch/releases/tag/v0.1.0-oneclick) 下载单文件 **Momodora1ZH_Setup.exe**（Windows 10/11 x64，约 11 MB），或下载附带说明与许可的 ZIP。双击后选游戏根目录，按“一键安装汉化”即可；也可先按“检查原版”。安装器已内嵌 Python/Tk 运行时、补丁程序、版本清单、中文图集及许可证，目标电脑无需安装 Python 或联网。运行时许可可在界面中直接查看。
+
+若下载的是仓库源码 ZIP，安装器位于 `Momo1_151_Chinese_Patch/Momodora1ZH_Setup.exe`。源码包根目录的 `下载一键汉化器.cmd` 也可启动它。详细说明见 [一键安装器说明](Momo1_151_Chinese_Patch/一键安装说明.md)。
+
+自制安装器**未做 Authenticode 代码签名**。SmartScreen 或防病毒软件可能因未签名/自解压临时文件提示警告；运行前请核对 SHA-256 与公开源码。运行时包含 Python/Tcl/Tk，许可文件随仓库发布于 `Momo1_151_Chinese_Patch/Licenses/`；详细见 [许可列表](Momo1_151_Chinese_Patch/Licenses/README.md)。若不信任此文件，请不要运行，可自行从源码构建或使用后面的 Python 安装方式。
+
+```text
+SHA-256：ba59ff8aa68201ffdc85bcd4417d8f47dcc015520db8ea5341f80ffa40b50cae
+```
 
 ### 方法一：复制补丁到游戏目录
 
@@ -69,7 +79,8 @@ py -3 Momo1_151_Chinese_Patch/apply_patch.py --game-dir "D:\你的游戏目录" 
 ## 已完成验证
 
 - 原版解包与无改动回包；汉化 EXE 读回一致性；引擎前缀保持不变。
-- 安装、重复安装、只读检查、卸载、错误版本拒绝、未知文件保护，共 6 项安装器测试。
+- Python 源码安装器的 6 项测试；新单文件 EXE 的 9 项临时副本安全测试（包括部分安装损坏检测）。
+- 打包 GUI 在不含 Python/Git 的 PATH 下可见；真实点击“一键安装汉化”，生成的游戏 EXE/图集哈希与已验证补丁完全一致，中文成功弹窗显示正常，原版与已有存档不变。
 - 在 Windows 实际启动原版与汉化版，进入第一游戏场景并打开物品栏。
 - 中文开始提示、三项菜单、序章三段与“魔法叶”物品名/说明，共 7 项实际截图字形匹配检查通过；序章淡入透明度保留。
 

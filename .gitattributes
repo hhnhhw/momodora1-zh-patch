@@ -4,3 +4,6 @@
 *.md text eol=lf
 *.cmd text eol=crlf
 *.png binary
+# Preserve upstream legal notices verbatim, including their whitespace.
+Momo1_151_Chinese_Patch/Licenses/*.txt -text -whitespace
+Momo1_151_Chinese_Patch/Licenses/*.terms -text -whitespace

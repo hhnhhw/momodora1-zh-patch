@@ -1,0 +1,12 @@
+﻿{
+    "product":  "Momodora 1.51 Simplified Chinese One-click Installer",
+    "version":  "0.1.0",
+    "file":  "Momodora1ZH_Setup.exe",
+    "architecture":  "x64",
+    "one_file":  true,
+    "python_required_on_target":  false,
+    "pyinstaller":  "6.22.3",
+    "python_build_version":  "3.12.6",
+    "size_bytes":  11446084,
+    "sha256":  "ba59ff8aa68201ffdc85bcd4417d8f47dcc015520db8ea5341f80ffa40b50cae"
+}

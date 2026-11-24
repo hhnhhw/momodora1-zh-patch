@@ -1,0 +1,19 @@
+{
+  "exe_sha256": "ba59ff8aa68201ffdc85bcd4417d8f47dcc015520db8ea5341f80ffa40b50cae",
+  "exe_size_bytes": 11446084,
+  "passed": [
+    "embedded-manifest-and-atlas-version-check",
+    "onefile-patch-build-and-target-sha256",
+    "same-version-install-idempotence",
+    "partial-receipt-missing-file-is-rejected",
+    "original-and-existing-save-preserved",
+    "safe-uninstall-and-save-preservation",
+    "reject-modified-wrong-version-exe",
+    "unknown-same-name-file-not-overwritten",
+    "modified-output-is-protected-from-uninstall"
+  ],
+  "count": 9,
+  "original_sha256": "97b6419b3def0f9133a6b1322d113f3ed22b395fbf5d3eaa6dd8dc2dd406e84a",
+  "original_unchanged": true,
+  "test_scope": "isolated temporary game clone; no live user save files used"
+}

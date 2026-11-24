@@ -1,0 +1,41 @@
+name: Verify one-click installer
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check Python sources
+        run: >-
+          python -m py_compile
+          Momo1_151_Chinese_Patch/oneclick_gui.py
+          Momo1_151_Chinese_Patch/oneclick_core.py
+          Momo1_151_Chinese_Patch/apply_patch.py
+          Momo1_151_Chinese_Patch/tools/gm7.py
+      - name: Verify published one-click EXE
+        shell: pwsh
+        run: |
+          $report = Get-Content Momo1_151_Chinese_Patch/oneclick_build_report.json -Raw | ConvertFrom-Json
+          $exe = 'Momo1_151_Chinese_Patch/' + $report.file
+          if (-not (Test-Path $exe)) { throw "Missing executable $exe" }
+          if ((Get-Item $exe).Length -ne $report.size_bytes) { throw 'Installer size does not match build report' }
+          if ((Get-FileHash $exe -Algorithm SHA256).Hash.ToLowerInvariant() -ne $report.sha256) { throw 'Installer hash does not match build report' }
+          Write-Host "Verified self-contained $($report.architecture) installer; runtime Python required: $($report.python_required_on_target)"
+      - name: Verify report provenance
+        shell: pwsh
+        run: |
+          $report = Get-Content Momo1_151_Chinese_Patch/oneclick_exe_test_report.json -Raw | ConvertFrom-Json
+          if ($report.passed.Count -ne 9) { throw 'Expected nine isolated installer checks' }
+          if (-not $report.original_unchanged) { throw 'Original game integrity test did not pass' }
+          if ($report.exe_sha256 -ne (Get-Content Momo1_151_Chinese_Patch/Momodora1ZH_Setup.exe.sha256 -Raw).Trim().Split(' ')[0]) { throw 'Test report executable hash mismatch' }
+          $gui = Get-Content Momo1_151_Chinese_Patch/oneclick_gui_test_report.json -Raw | ConvertFrom-Json
+          if (-not $gui.gui_button_test -or $gui.count -ne 4) { throw 'Real GUI button test report is missing' }
+          if ($gui.exe_sha256 -ne $report.exe_sha256) { throw 'GUI test report hash mismatch' }
+          Write-Host 'Isolated installer and real GUI button test report checks passed.'

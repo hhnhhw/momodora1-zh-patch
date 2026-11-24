@@ -1,6 +1,10 @@
 @echo off
 setlocal
 cd /d "%~dp0"
+if exist "%~dp0Momodora1ZH_Setup.exe" (
+  start "" /d "%~dp0.." "%~dp0Momodora1ZH_Setup.exe"
+  exit /b 0
+)
 where py >nul 2>nul
 if errorlevel 1 (
   echo Python 3 is required. Install Python 3 and run this file again.

@@ -1,0 +1,14 @@
+{
+  "exe_sha256": "ba59ff8aa68201ffdc85bcd4417d8f47dcc015520db8ea5341f80ffa40b50cae",
+  "checks": [
+    "packaged-GUI-visible-with-no-Python-or-Git-PATH",
+    "actual-one-click-install-button-generates-verified-EXE-and-atlas",
+    "Chinese-success-dialog-shown",
+    "GUI-install-preserves-original-and-existing-save"
+  ],
+  "count": 4,
+  "gui_button_test": true,
+  "target_python_required": false,
+  "original_unchanged": true,
+  "scope": "real packaged GUI button on temporary game clone; no live user saves used"
+}

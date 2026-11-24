@@ -1,5 +1,6 @@
 # Original or generated game files must never be committed.
 *.exe
+!Momo1_151_Chinese_Patch/Momodora1ZH_Setup.exe
 *.dll
 *.gml
 *.bin
@@ -22,9 +23,14 @@ momo.config.ini
 **/scratch/
 **/test_run/
 **/installer-test-*/
+**/gui-test-*/
+**/momodora-oneclick-test-*/
 **/test_pid.txt
+dist/
 
 # Python/build/editor state and authentication material.
+**/oneclick-build/
+**/oneclick-out/
 __pycache__/
 *.py[cod]
 .venv/
